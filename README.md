@@ -11,7 +11,7 @@ os, OpenCV, pandas, numpy, matplotlib, scipy, Keras, PIL
 State farm distracted driver dataset from kaggle
 
 # Training
-We have 10 features categorising the activities drivers are indulged into.For each feature we are given a separate folder to train the model.
+We have 10 classes categorising the activities drivers are indulged into.For each class we are given a separate folder to train the model.
 
 # Testing 
-We will be given an image taken from  the dashboard of the car. We have to predict a vector of 10 values(features) which would describe what driver is doing and eventually tell if he is distracted or not.
+We will be given an image taken from  the dashboard of the car. We have to predict a vector of probabilities of 10 classes which would describe what driver is doing and eventually tell if he is distracted or not.
